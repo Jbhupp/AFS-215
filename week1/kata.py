@@ -12,10 +12,10 @@ def Kata(number):
         print(output)
 
 
-Kata(1) 
-Kata(2)  
-Kata(3) 
-Kata(5) 
-Kata(6) 
-Kata(10)  
-Kata(15)  
+Kata(1)
+Kata(2)
+Kata(3)
+Kata(5)
+Kata(6)
+Kata(10)
+Kata(15)
