@@ -1,0 +1,11 @@
+[
+  "test/test_fizzbuzz.py::test_fail",
+  "test/test_fizzbuzz.py::test_five",
+  "test/test_fizzbuzz.py::test_four",
+  "test/test_fizzbuzz.py::test_one",
+  "test/test_fizzbuzz.py::test_pass",
+  "test/test_fizzbuzz.py::test_siz",
+  "test/test_fizzbuzz.py::test_three",
+  "test/test_fizzbuzz.py::test_two",
+  "test_sample.py::test_answer"
+]
