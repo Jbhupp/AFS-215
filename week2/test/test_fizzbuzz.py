@@ -1,14 +1,17 @@
 from fizzbuzz import PepsiCoke
 
+
 # Can Call on PepsiCoke()
 # Get “1” to print when passed a 1
 def test_one():
     fizz = PepsiCoke(1)
+    print(fizz)
     assert fizz == 1
 
 # Get “2” to print when passed a 2
 def test_one():
     fizz = PepsiCoke(2)
+    print(fizz)
     assert fizz == 2
 # Get “Pepsi” to print when passed a 3
 def test_two():
@@ -38,3 +41,4 @@ def test_fail():
 def test_pass():
     fizz = PepsiCoke(13)
     assert fizz == False
+

@@ -14,3 +14,9 @@ def PepsiCoke(num):
             return'Coke'
         else:
             return False
+print(PepsiCoke(1))
+print(PepsiCoke(2))
+print(PepsiCoke(0))
+print(PepsiCoke(4))
+print(PepsiCoke(5))
+print(PepsiCoke(False))
