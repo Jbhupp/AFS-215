@@ -1,0 +1,6 @@
+[
+  "test/test_develop.py::testEvaluateItems",
+  "test/test_develop.py::testSearchItem",
+  "test/test_develop.py::testSearchItem1",
+  "test/test_develop.py::test_add"
+]
