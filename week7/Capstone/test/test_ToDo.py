@@ -17,22 +17,22 @@ def testCanAddItem(todolist):
 def testCanAddMultipleItems(todolist):
     # link = ToDoList()
     items = ['Go to Bank', 6, True, {"door": "wood"}]
-    assert todolist.addMultItems(items) == ['Go to Bank', 6, True, {"door": "wood"}]
+    assert todolist.addMultiItems(items) == ['Go to Bank', 6, True, {"door": "wood"}]
 
 def testRemoveFirstItem(todolist):
     # link = ToDoList()
     items = ['Go to Bank', 6, True, {"door": "wood"}]
-    todolist.addMultItems(items)
+    todolist.addMultiItems(items)
     assert todolist.removeFirstItem() == [6, True, {"door": "wood"}]
 
 def testRemoveLastItem(todolist):
     # link = ToDoList()
     items = ['Go to Bank', 6, True, {"door": "wood"}]
-    todolist.addMultItems(items)
+    todolist.addMultiItems(items)
     assert todolist.removeLastItem() == ['Go to Bank', 6, True]
 
 def testRemoveSpecificItem(todolist):
     # link = ToDoList()
     items = ['Go to Bank', 6, True, {"door": "wood"}]
-    todolist.addMultItems(items)
-    assert todolist.removeSpecificItem(6) == ['Wash Dishes', True, {"door": "wood"}]
+    todolist.addMultiItems(items)
+    assert todolist.removeSpecificItem(6) == ['Go to Bank', True, {"door": "wood"}]
